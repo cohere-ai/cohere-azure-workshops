@@ -1,5 +1,5 @@
 .env
-**/chroma_db/
+# chroma_db is committed so students can skip re-indexing during workshops
 __pycache__/
 *.pyc
 .DS_Store
