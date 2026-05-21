@@ -1,0 +1,8 @@
+cohere>=5.0
+chromadb>=0.6
+pillow>=10.0
+tqdm>=4.0
+pandas>=2.0
+ipykernel>=6.0
+gradio>=4.0
+python-dotenv>=1.0
