@@ -30,6 +30,16 @@ cp .env.example .env
 # edit .env with your Azure credentials
 ```
 
+### Option A — Local (Windows — Command Prompt or PowerShell)
+
+```powershell
+git clone https://github.com/cohere-ai/cohere-azure-workshops.git
+cd cohere-azure-workshops
+pip install -r requirements.txt
+copy .env.example .env
+# edit .env with your Azure credentials
+```
+
 ### Option B — GitHub Codespaces 
 
 1. Click **Code → Codespaces → Create codespace on main**
