@@ -11,7 +11,7 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Azu
 | `lab-3-embed-business-graphs` | `lab-3-embed.ipynb`                          | Multimodal semantic search — index and query business graph images |
 | `lab-4-rerank`                | `lab-4-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
 | `lab-4-rerank` (optional)     | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
-| `lab-4-rerank` (optional)     | `optional-lab-ranking_structured_data.ipynb` | Reranking structured data                                          |
+| `lab-4-rerank` (optional)     | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
 
 
 > All notebooks use `cohere.ClientV2` and connect to Azure AI Foundry via the `/providers/cohere` endpoint path.
@@ -50,20 +50,9 @@ cp .env.example .env
    # edit .env with your Azure endpoint URLs and API keys
   ```
 
-## Lab 2 — Business Graph Search
+## Lab 3 — Business Graph Search
 
-### Step 1: Index the images
-
-Open and run `**lab-3-embed-business-graphs/lab-3-embed.ipynb**` to embed the dataset and store vectors in ChromaDB.
-
-### Step 2: Launch the search UI
-
-```bash
-python lab-3-embed-business-graphs/search_ui.py
-```
-
-In Codespaces, the Gradio UI opens automatically in the browser via port forwarding on port **7860**.  
-Locally, open [http://localhost:7860](http://localhost:7860).
+Open and run **`lab-3-embed-business-graphs/lab-3-embed.ipynb`** to embed the dataset, store vectors in ChromaDB, and run multimodal semantic search queries against the indexed images.
 
 ---
 
