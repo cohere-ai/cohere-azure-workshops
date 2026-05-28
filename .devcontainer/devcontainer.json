@@ -1,14 +1,7 @@
 {
   "name": "Cohere Azure Workshops",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "postCreateCommand": "pip install -r requirements.txt",
-  "forwardPorts": [7860],
-  "portsAttributes": {
-    "7860": {
-      "label": "Gradio UI",
-      "onAutoForward": "openBrowser"
-    }
-  },
+  "postCreateCommand": "pip install -r requirements.txt && cp -n .env.example .env",
   "customizations": {
     "vscode": {
       "extensions": [
