@@ -30,6 +30,8 @@ copy .env.example .env
 # edit .env with your Azure credentials
 ```
 
+> **Lab 3 note (Windows):** Open `lab-3-embed.ipynb` directly from the `lab-3-embed-business-graphs\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures relative paths like `./dataset/` and `./chroma_db` resolve correctly.
+
 ### Option B — Local (macOS / Linux)
 
 ```bash
