@@ -20,16 +20,6 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Azu
 
 ## Setup
 
-### Option A — Local (macOS / Linux)
-
-```bash
-git clone https://github.com/cohere-ai/cohere-azure-workshops.git
-cd cohere-azure-workshops
-pip install -r requirements.txt
-cp .env.example .env
-# edit .env with your Azure credentials
-```
-
 ### Option A — Local (Windows — Command Prompt or PowerShell)
 
 ```powershell
@@ -40,7 +30,17 @@ copy .env.example .env
 # edit .env with your Azure credentials
 ```
 
-### Option B — GitHub Codespaces 
+### Option B — Local (macOS / Linux)
+
+```bash
+git clone https://github.com/cohere-ai/cohere-azure-workshops.git
+cd cohere-azure-workshops
+pip install -r requirements.txt
+cp .env.example .env
+# edit .env with your Azure credentials
+```
+
+### Option C — GitHub Codespaces 
 
 1. Click **Code → Codespaces → Create codespace on main**
 2. Wait for the container to build and `pip install` to complete (~2 min)
