@@ -22,7 +22,7 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Azu
 
 ### Option A — Local (Windows — Command Prompt or PowerShell)
 
-```powershell
+```bash
 git clone https://github.com/cohere-ai/cohere-azure-workshops.git
 cd cohere-azure-workshops
 pip install -r requirements.txt
