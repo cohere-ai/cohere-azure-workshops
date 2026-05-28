@@ -5,13 +5,13 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Azu
 ## Labs
 
 
-| Lab                           | Notebook                                     | Description                                                        |
-| ----------------------------- | -------------------------------------------- | ------------------------------------------------------------------ |
-| `lab-2-embed-getting-started` | `lab-2-embed.ipynb`                          | Introduction to text embeddings with Cohere on Azure               |
-| `lab-3-embed-business-graphs` | `lab-3-embed.ipynb`                          | Multimodal semantic search — index and query business graph images |
-| `lab-4-rerank`                | `lab-4-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
-| `lab-4-rerank` (optional)     | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
-| `lab-4-rerank` (optional)     | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
+| Lab                              | Notebook                                     | Description                                                        |
+| -------------------------------- | -------------------------------------------- | ------------------------------------------------------------------ |
+| `lab-2a-embed-getting-started`   | `lab-2a-embed.ipynb`                         | Introduction to text embeddings with Cohere on Azure               |
+| `lab-2b-embed-business-graphs`   | `lab-2b-embed.ipynb`                         | Multimodal semantic search — index and query business graph images |
+| `lab-2c-rerank`                  | `lab-2c-rerank-getting-started.ipynb`        | Semantic reranking — improve search relevance with Cohere Rerank   |
+| `lab-2c-rerank` (optional)       | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
+| `lab-2c-rerank` (optional)       | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
 
 
 > All notebooks use `cohere.ClientV2` and connect to Azure AI Foundry via the `/providers/cohere` endpoint path.
@@ -30,7 +30,7 @@ copy .env.example .env
 # edit .env with your Azure credentials
 ```
 
-> **Lab 3 note (Windows):** Open `lab-3-embed.ipynb` directly from the `lab-3-embed-business-graphs\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures relative paths like `./dataset/` and `./chroma_db` resolve correctly.
+> **Lab 2b note (Windows):** Open `lab-2b-embed.ipynb` directly from the `lab-2b-embed-business-graphs\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures relative paths like `./dataset/` and `./chroma_db` resolve correctly.
 
 ### Option B — Local (macOS / Linux)
 
