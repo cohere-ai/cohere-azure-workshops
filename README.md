@@ -20,17 +20,7 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Azu
 
 ## Setup
 
-### Option A — GitHub Codespaces (recommended for workshops)
-
-1. Click **Code → Codespaces → Create codespace on main**
-2. Wait for the container to build and `pip install` to complete (~2 min)
-3. Copy the env file and fill in your Azure credentials:
-  ```bash
-   cp .env.example .env
-   # edit .env with your Azure endpoint URLs and API keys
-  ```
-
-### Option B — Local (macOS / Linux)
+### Option A — Local (macOS / Linux)
 
 ```bash
 git clone https://github.com/cohere-ai/cohere-azure-workshops.git
@@ -40,7 +30,15 @@ cp .env.example .env
 # edit .env with your Azure credentials
 ```
 
----
+### Option B — GitHub Codespaces 
+
+1. Click **Code → Codespaces → Create codespace on main**
+2. Wait for the container to build and `pip install` to complete (~2 min)
+3. Copy the env file and fill in your Azure credentials:
+  ```bash
+   cp .env.example .env
+   # edit .env with your Azure endpoint URLs and API keys
+  ```
 
 ## Lab 2 — Business Graph Search
 
