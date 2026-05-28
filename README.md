@@ -40,7 +40,7 @@ cp .env.example .env
 # edit .env with your Azure credentials
 ```
 
-### Option C — GitHub Codespaces 
+### Option C — GitHub Codespaces
 
 1. Click **Code → Codespaces → Create codespace on main**
 2. Wait for the container to build and `pip install` to complete (~2 min)
@@ -49,12 +49,6 @@ cp .env.example .env
    cp .env.example .env
    # edit .env with your Azure endpoint URLs and API keys
   ```
-
-## Lab 3 — Business Graph Search
-
-Open and run **`lab-3-embed-business-graphs/lab-3-embed.ipynb`** to embed the dataset, store vectors in ChromaDB, and run multimodal semantic search queries against the indexed images.
-
----
 
 ## Azure AI Foundry — Endpoint URL Format
 
