@@ -9,9 +9,9 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Mic
 | ------------------------------ | -------------------------------------------- | ------------------------------------------------------------------ |
 | `lab-1-embed-getting-started`  | `lab-1-embed.ipynb`                          | Introduction to text embeddings with Cohere on Azure               |
 | `lab-2b-embed-business-graphs` | `lab-2b-embed.ipynb`                         | Multimodal semantic search — index and query business graph images |
-| `lab-2c-rerank`                | `lab-2c-rerank-getting-started.ipynb`        | Semantic reranking — improve search relevance with Cohere Rerank   |
-| `lab-2c-rerank` (optional)     | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
-| `lab-2c-rerank` (optional)     | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
+| `lab-2-rerank`                | `lab-2-rerank-getting-started.ipynb`        | Semantic reranking — improve search relevance with Cohere Rerank   |
+| `lab-2-rerank` (optional)     | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
+| `lab-2-rerank` (optional)     | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
 
 
 > All notebooks use `cohere.ClientV2` and connect to Microsoft Foundry via the `/providers/cohere` endpoint path.
