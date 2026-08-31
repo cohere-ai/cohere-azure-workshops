@@ -7,11 +7,11 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Mic
 
 | Lab                            | Notebook                                     | Description                                                        |
 | ------------------------------ | -------------------------------------------- | ------------------------------------------------------------------ |
-| `lab-1-embed-getting-started`  | `lab-1-embed.ipynb`                          | Introduction to text embeddings with Cohere on Azure               |
-| `lab-2b-embed-business-graphs` | `lab-2b-embed.ipynb`                         | Multimodal semantic search — index and query business graph images |
-| `lab-2-rerank`                | `lab-2-rerank-getting-started.ipynb`        | Semantic reranking — improve search relevance with Cohere Rerank   |
-| `lab-2-rerank` (optional)     | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
-| `lab-2-rerank` (optional)     | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
+| `lab-1a-embed-getting-started` | `lab-1a-embed-getting-started.ipynb`         | Introduction to text embeddings with Cohere on Azure               |
+| `lab-1b-embed-business-graphs` | `lab-1b-embed-business-graphs.ipynb`         | Multimodal semantic search — index and query business graph images |
+| `lab-2-rerank`                 | `lab-2-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
+| `lab-2-rerank` (optional)      | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
+| `lab-2-rerank` (optional)      | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
 
 
 > All notebooks use `cohere.ClientV2` and connect to Microsoft Foundry via the `/providers/cohere` endpoint path.
@@ -30,7 +30,7 @@ copy .env.example .env
 # edit .env with your Azure credentials
 ```
 
-> **Lab 2b note (Windows):** Open `lab-2b-embed.ipynb` directly from the `lab-2b-embed-business-graphs\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures relative paths like `./dataset/` and `./chroma_db` resolve correctly.
+> **Lab 1b note (Windows):** Open `lab-1b-embed-business-graphs.ipynb` directly from the `lab-1-embed\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures relative paths like `./dataset/` and `./chroma_db` resolve correctly.
 
 ### Option B — Local (macOS / Linux)
 
