@@ -10,7 +10,6 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Mic
 | `lab-1a-embed-getting-started` | `lab-1a-embed-getting-started.ipynb`         | Introduction to text embeddings with Cohere on Azure               |
 | `lab-1b-embed-business-graphs` | `lab-1b-embed-business-graphs.ipynb`         | Multimodal semantic search — index and query business graph images |
 | `lab-2-rerank`                 | `lab-2-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
-| `lab-2-rerank` (optional)      | `optional-lab-rerank_wikipedia_search.ipynb` | Reranking over Wikipedia search results                            |
 | `lab-2-rerank` (optional)      | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
 
 
