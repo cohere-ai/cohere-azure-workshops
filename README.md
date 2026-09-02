@@ -11,6 +11,7 @@ Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Mic
 | `lab-1b-embed-business-graphs` | `lab-1b-embed-business-graphs.ipynb`         | Multimodal semantic search — index and query business graph images |
 | `lab-2-rerank`                 | `lab-2-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
 | `lab-2-rerank` (optional)      | `optional-lab-rerank_structured_data.ipynb`  | Reranking structured data                                          |
+| `lab-3-parse`                  | `lab-3-parse-getting-started.ipynb`          | Document parsing — extract structured blocks from documents        |
 
 
 > All notebooks use `cohere.ClientV2` and connect to Microsoft Foundry via the `/providers/cohere` endpoint path.
@@ -30,6 +31,8 @@ copy .env.example .env
 ```
 
 > **Lab 1b note (Windows):** Open `lab-1b-embed-business-graphs.ipynb` directly from the `lab-1-embed\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures relative paths like `./dataset/` and `./chroma_db` resolve correctly.
+
+> **Lab 3 note (Windows):** Open `lab-3-parse-getting-started.ipynb` directly from the `lab-3-parse\` folder in VS Code so the Jupyter kernel's working directory is set to that folder. This ensures the relative path `./sample_inputs/` resolves correctly.
 
 ### Option B — Local (macOS / Linux)
 
@@ -60,9 +63,10 @@ The correct `base_url` for each model uses the `**/providers/cohere`** path (vis
 | ---------- | ------------------------------ | ----------------------------------------------------------- |
 | Embed      | `…/providers/cohere/v2/embed`  | `https://<resource>.services.ai.azure.com/providers/cohere` |
 | Rerank     | `…/providers/cohere/v2/rerank` | `https://<resource>.services.ai.azure.com/providers/cohere` |
+| Parse      | `…/providers/cohere/v2/parse`  | `https://<resource>.services.ai.azure.com/providers/cohere` |
 
 
-> **Note:** `cohere.ClientV2` automatically appends `/v2/embed` or `/v2/rerank` to the `base_url`.
+> **Note:** `cohere.ClientV2` automatically appends `/v2/embed`, `/v2/rerank`, or `/v2/parse` to the `base_url`.
 
 ---
 
@@ -77,6 +81,9 @@ The correct `base_url` for each model uses the `**/providers/cohere`** path (vis
 | `RERANK_MODEL`    | Cohere rerank model name (e.g. `Cohere-rerank-v4.0-pro`) |
 | `RERANK_BASE_URL` | Microsoft Foundry endpoint — up to `/providers/cohere`   |
 | `RERANK_API_KEY`  | Azure API key for the rerank deployment                  |
+| `PARSE_MODEL`     | Cohere parse model name (e.g. `parse-v5.0`)              |
+| `PARSE_BASE_URL`  | Microsoft Foundry endpoint — up to `/providers/cohere`   |
+| `PARSE_API_KEY`   | Azure API key for the parse deployment                   |
 | `CHROMA_DB_PATH`  | Path to ChromaDB storage (default: `./chroma_db`)        |
 
 
