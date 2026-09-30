@@ -1,6 +1,6 @@
 # Cohere Azure Workshops
 
-Hands-on labs for using **Cohere embed-v4.0** and **Cohere rerank-v4.0** via Microsoft Foundry to build semantic search and reranking applications.
+Hands-on labs for using **Cohere Embed-V5-Pro** and **Cohere rerank-v4.0** via Microsoft Foundry to build semantic search and reranking applications.
 
 ## Labs
 
@@ -75,7 +75,7 @@ The correct `base_url` for each model uses the `**/providers/cohere`** path (vis
 
 | Variable          | Description                                              |
 | ----------------- | -------------------------------------------------------- |
-| `EMBED_MODEL`     | Cohere embed model name (e.g. `embed-v-4-0`)             |
+| `EMBED_MODEL`     | Cohere embed model name (e.g. `Embed-V5-Pro`)             |
 | `EMBED_BASE_URL`  | Microsoft Foundry endpoint — up to `/providers/cohere`   |
 | `EMBED_API_KEY`   | Azure API key for the embed deployment                   |
 | `RERANK_MODEL`    | Cohere rerank model name (e.g. `Cohere-rerank-v4.0-pro`) |
