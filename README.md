@@ -7,7 +7,7 @@ Hands-on labs for using **Cohere Embed, Rerank and Parse models** via Microsoft 
 
 | Lab                            | Notebook                                     | Description                                                        |
 | ------------------------------ | -------------------------------------------- | ------------------------------------------------------------------ |
-| `lab-1-embed-business-graphs`  | `lab-1-embed-business-graphs.ipynb`          | Multimodal semantic search — index and query business graph images |
+| `lab-1-embed`  | `lab-1-embed-business-graphs.ipynb`          | Multimodal semantic search — index and query business graph images |
 | `lab-2-rerank`                 | `lab-2-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
 | `lab-3-parse`                  | `lab-3-parse-getting-started.ipynb`          | Document parsing — extract structured blocks from documents        |
 
