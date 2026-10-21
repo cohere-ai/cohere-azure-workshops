@@ -63,7 +63,7 @@ The correct `base_url` for each model uses the `**/providers/cohere`** path (vis
 | `RERANK_MODEL`    | Cohere rerank model name (e.g. `Cohere-rerank-v5-pro`) |
 | `RERANK_BASE_URL` | Microsoft Foundry endpoint — up to `/providers/cohere`   |
 | `RERANK_API_KEY`  | Azure API key for the rerank deployment                  |
-| `PARSE_MODEL`     | Cohere parse model name (e.g. `parse-v5.0`)              |
+| `PARSE_MODEL`     | Cohere parse model name (e.g. `Cohere-parse-v5`)              |
 | `PARSE_BASE_URL`  | Microsoft Foundry endpoint — up to `/providers/cohere`   |
 | `PARSE_API_KEY`   | Azure API key for the parse deployment                   |
 | `CHROMA_DB_PATH`  | Path to ChromaDB storage (default: `./chroma_db`)        |
