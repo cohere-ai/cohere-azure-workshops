@@ -14,6 +14,8 @@ Hands-on labs for using **Cohere Embed, Rerank and Parse models** via Microsoft 
 
 > All notebooks use `cohere.ClientV2` and connect to Microsoft Foundry via the `/providers/cohere` endpoint path.
 
+> **Renamed Oct 22, 2026:** the labs were renumbered — `lab-1-embed` → `lab-2-embed`, `lab-2-rerank` → `lab-3-rerank`, `lab-3-parse` → `lab-1-parse`. If you cloned before this date, run `git pull` and re-open the notebooks from their new folders.
+
 ---
 
 ## Setup
