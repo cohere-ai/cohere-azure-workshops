@@ -7,9 +7,9 @@ Hands-on labs for using **Cohere Embed, Rerank and Parse models** via Microsoft 
 
 | Lab                            | Notebook                                     | Description                                                        |
 | ------------------------------ | -------------------------------------------- | ------------------------------------------------------------------ |
-| `lab-1-embed`  | `lab-1-embed-business-graphs.ipynb`          | Multimodal semantic search — index and query business graph images |
-| `lab-2-rerank`                 | `lab-2-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
-| `lab-3-parse`                  | `lab-3-parse-getting-started.ipynb`          | Document parsing — extract structured blocks from documents        |
+| `lab-1-parse`                  | `lab-1-parse-getting-started.ipynb`          | Document parsing — extract structured blocks from documents        |
+| `lab-2-embed`                  | `lab-2-embed-business-graphs.ipynb`          | Multimodal semantic search — index and query business graph images |
+| `lab-3-rerank`                 | `lab-3-rerank-getting-started.ipynb`         | Semantic reranking — improve search relevance with Cohere Rerank   |
 
 
 > All notebooks use `cohere.ClientV2` and connect to Microsoft Foundry via the `/providers/cohere` endpoint path.
